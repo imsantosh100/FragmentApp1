@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#58c8f1"
+    android:orientation="vertical"
+    tools:context="com.example.admin.fragmentapp1.BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:text="First fragment" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="textPersonName"
+        android:hint="Enter User Name"
+        android:textColor="#000"
+        android:background="#FFFFFF"
+        android:textSize="20sp"
+        android:ems="10"
+        android:id="@+id/editText1" />
+
+    <!--<EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="textPersonName"
+        android:textColor="#000"
+        android:hint="Enter Password"
+        android:background="#FFFFFF"
+        android:textSize="20sp"
+        android:ems="10"
+        android:id="@+id/editText2" />-->
+
+    <Button
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5053f5"
+        android:textColor="#FFF"
+        android:id="@+id/button" />
+
+</LinearLayout>

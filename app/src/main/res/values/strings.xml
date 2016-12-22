@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FragmentApp1</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment1">First fragment</string>
+    <string name="hello_blank_fragment">Second fragment</string>
+</resources>
